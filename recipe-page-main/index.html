@@ -12,41 +12,32 @@
       href="./assets/images/favicon-32x32.png"
     />
 
+    <link rel="stylesheet" href="styles.css">
+
     <title>Frontend Mentor | Recipe page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+
   </head>
   <body>
     <main id="outer-wrapper">
-      <div>
         <img src="assets/images/image-omelette.jpeg" alt="omelette image" />
-      </div>
-      <div>
+      <div class="inner-wrapper">
         <h1>Simple Omelette Recipe</h1>
-        <p>
+        <p class="intro">
           An easy and quick dish, perfect for any meal. This classic omelette
           combines beaten eggs cooked to perfection, optionally filled with your
           choice of cheese, vegetables, or meats.
         </p>
       </div>
-      <div>
+      <div class="preparation inner-wrapper">
         <h3>Preparation time</h3>
         <ul>
-          <li><b>Total:</b>Approximately 10 minutes</li>
-          <li><b>Preparation: </b>5 minutes</li>
-          <li><b> Cooking: </b>5 minutes</li>
+          <li></i><b>Total:</b>Approximately 10 minutes</li>
+          <li></i><b>Preparation: </b>5 minutes</li>
+          <li></i><b> Cooking: </b>5 minutes</li>
         </ul>
       </div>
-      <div>
+      <div class="ingredient inner-wrapper">
         <h2>Ingredients</h2>
         <ul>
           <li>2-3 large eggs</li>
@@ -58,7 +49,8 @@
           </li>
         </ul>
       </div>
-      <div>
+      <div style="padding: 0;" class="line-break"></div>
+      <div class="instruction inner-wrapper">
         <h2>Instructions</h2>
         <ol>
           <li>
@@ -90,30 +82,42 @@
           </li>
         </ol>
       </div>
-      <div>
+      <div style="padding: 0;" class="line-break"></div>
+      <div class="nutrition inner-wrapper">
         <h2>Nutrition</h2>
-        <p>
+        <p class="intro">
           The table below shows nutritional values per serving without the
           additional fillings.
         </p>
-        <table>
-          <tr>
-            <td>Calories</td>
-            <td>277kcal</td>
-          </tr>
-          <tr>
-            <td>Carbs</td>
-            <td>0g</td>
-          </tr>
-          <tr>
-            <td>Protein</td>
-            <td>20g</td>
-          </tr>
-          <tr>
-            <td>Fat</td>
-            <td>22g</td>
-          </tr>
-        </table>
+         <!-- CSS Code: Place this code in the document's head (between the 'head' tags) -->
+
+  
+  <!-- HTML Code: Place this code in the document's body (between the 'body' tags) where the table should appear -->
+  <table class="table">
+    
+    <tbody>
+      <tr>
+        <td>Calories</td>
+        <td class="td-2">277kcal</td>
+      </tr>
+      <tr>
+        <td>Carbs</td>
+        <td class="td-2">0g</td>
+      </tr>
+      <tr>
+        <td>Protein</td>
+        <td class="td-2">20g</td>
+      </tr>
+      <tr>
+        <td>Fat</td>
+        <td class="td-2">22g</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  
+          
       </div>
     </main>
 
@@ -121,7 +125,7 @@
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">yohannes-Te</a>.
     </div>
   </body>
 </html>

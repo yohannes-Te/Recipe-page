@@ -1,0 +1,193 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+/* variables declared here - these are colors for our pages, as well as the font stacks and sizes. */
+:root {
+  --primery-nutmag: hsl(14, 45%, 36%);
+  --primery-Dark-Raspberry: hsl(332, 51%, 32%);
+  --neutral-White: hsl(0, 0%, 100%);
+  --neutral-Rose-White: hsl(330, 100%, 98%);
+  --neutral-Eggshell: hsl(30, 54%, 90%);
+  --neutral-Light-Grey: hsl(30, 18%, 87%);
+  --neutral-Wenge-Brown: hsl(30, 10%, 34%);
+  --neutral-Dark-Charcoal: hsl(24, 5%, 18%);
+  --Font-size: 16px;
+  --outfit: "Outfit", sans-serif;
+  --young-serif: "Young Serif", serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--neutral-Wenge-Brown);
+  background-color: var(--neutral-Eggshell);
+  font-family: var(--outfit);
+  font-size: var(--Font-size);
+  max-width: 100%;
+}
+
+#outer-wrapper {
+  max-width: 375px;
+  margin: 0 auto;
+  background-color: var(--neutral-White);
+}
+
+#outer-wrapper .inner-wrapper {
+  padding: 30px;
+}
+
+#outer-wrapper img {
+  max-width: 100%;
+}
+
+#outer-wrapper h1 {
+  color: var(--neutral-Dark-Charcoal);
+  font-family: var(--young-serif);
+  font-weight: 400;
+  /* font-size: 2rem; */
+}
+
+#outer-wrapper .intro {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+#outer-wrapper .preparation {
+  background-color: var(--neutral-Rose-White);
+  margin: 0 30px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+}
+
+h3 {
+  color: var(--primery-Dark-Raspberry);
+  font-family: var(--young-serif);
+  font-weight: 400;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  line-height: 2rem;
+}
+.preparation ul li {
+  font-size: 1rem;
+  padding: 0 16px;
+  margin: 0 20px;
+  list-style-type: square;
+  font-weight: 400;
+}
+
+h2 {
+  color: var(--primery-nutmag);
+  font-family: var(--young-serif);
+  font-weight: 400;
+}
+
+.ingredient h2 {
+  margin-top: 0;
+}
+
+.ingredient ul li {
+  padding: 0 12px;
+  margin: 0 18px;
+  list-style-type: square;
+  font-weight: 400;
+}
+
+.line-break {
+  margin: 0 30px;
+  height: 0.5px;
+  background-color: var(--neutral-Light-Grey);
+}
+
+.instruction h2 {
+  margin-top: 0;
+}
+.instruction ol li {
+  padding: 0 0 0 12px;
+  margin: 0 0 0 18px;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.nutriation h2 {
+  margin-top: 0;
+}
+
+/* .nutrition .value-wrapper{
+  display: flex;
+  flex-direction: column;
+} */
+
+.nutrition .value{
+  display: flex;
+  justify-content: space-evenly;
+  /* text-align: center; */
+  column-gap: 40px;
+}
+
+
+  table.table {
+    width: 100%;
+  }
+  
+  table.table td{
+    border-width: 1px;
+    border-color: hsl(30, 18%, 87%);
+    border-bottom-style: solid;
+    padding-bottom: 3px;
+    padding-left: 22px;
+  }
+  
+  table.table .td-2 {
+    color: var(--primery-nutmag);
+    font-weight: 600;
+  }
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-bottom: 6px;
+    }
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    @media (min-width:375px){
+      #outer-wrapper{
+        max-width: 720px;
+        margin: 90px auto;
+        /* padding: 40px; */
+        align-items: center;
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+
+      }
+
+      #outer-wrapper img{
+        padding: 28px;
+        /* margin: 2%; */
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+      }
+
+      #outer-wrapper .inner-wrapper{
+        border-radius: 8px;
+        box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+      }
+
+    }
