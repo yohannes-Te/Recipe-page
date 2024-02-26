@@ -6,8 +6,9 @@
 
 ### Links
 
-- Solution URL:
-- Live Site URL:
+- Solution URL: https://github.com/yohannes-Te/Recipe-page.github.io
+ 
+- Live Site URL: https://github.com/yohannes-Te.github.io/Recipe-page.github.io/
 
 ### Built with
 
